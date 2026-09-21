@@ -1,3 +1,33 @@
 [
-  
+  {
+  "name": "Fireball",
+  "type": "Evocation",
+  "school": "Pyro",
+  "level": 3,
+  "components": ["S", "V", "M"],
+  "thv": {
+    "lower": 12,
+    "higher": 16
+  },
+  "casters": 1,
+  "range": "18 meters",
+  "area": "6-meter Radius",
+  "duration": "Instantaneous",
+  "castingTime": "Instant",
+  "effect": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. make a ranged attack against each creature in a 6-meter-radius sphere centered on that point, taking 6d6 fire damage on a miss, or half as much damage on a successful one.",
+  "overcastings": [
+    {
+      "cost": "+1 Success",
+      "effect": "Add +1d6 Fire damage"
+    },
+    {
+      "cost": "+1 Success",
+      "effect": "Increase range by +4 meters"
+    },
+    {
+      "cost": "+1 Successes",
+      "effect": "increase AOE radius by 2 meters."
+    }
+  ]
+},
 ]
